@@ -6,6 +6,9 @@ header {
   justify-content: space-between;
   align-items: center;
   background: #fff;
+  .burger-menu {
+    display: none;
+  }
 
   .header-links {
     display: flex;
@@ -42,6 +45,15 @@ header {
 @media (max-width: 500px) {
   header {
     padding: 0px 20px;
+    .logo {
+      width: 93px;
+      height: 26.35px;
+    }
+    .burger-menu {
+      display: block;
+      width: 29px;
+      height: 29px;
+    }
 
     .header-links {
       display: none;
