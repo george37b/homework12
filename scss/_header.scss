@@ -1,0 +1,50 @@
+header {
+  width: 100%;
+  height: 100px;
+  padding: 38px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+
+  .header-links {
+    display: flex;
+    align-items: center;
+
+    .nav-list {
+      display: flex;
+      column-gap: 46px;
+
+      a {
+        color: #000;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+
+    .help-btn {
+      border-radius: 6px;
+      background: #75bf7a;
+      width: 182px;
+      height: 50px;
+      padding: 12px 28px;
+      color: #fff;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-left: 47px;
+    }
+  }
+}
+@media (max-width: 500px) {
+  header {
+    padding: 0px 20px;
+
+    .header-links {
+      display: none;
+    }
+  }
+}
